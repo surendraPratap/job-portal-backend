@@ -61,6 +61,7 @@ exports.getAllClients = (req, res) => {
     })
 }
 
+
 //Update the details of Client
 exports.updateClientDetails = (req, res) => {
     const { id } = req.client;
